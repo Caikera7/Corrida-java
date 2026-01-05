@@ -1,6 +1,6 @@
-## Getting Started
+## Sejam Bem-Vindo ao meu repositorio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esse repositório é dedicado ao meu aprendizado na linguagem Java nele vou mostrar meu estudos desde o iniciante até ao profissional 
 
 ## Folder Structure
 
