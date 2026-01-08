@@ -1,6 +1,6 @@
 package academy.devnunes.marratonajava.introducao;
 
-public class Aritimeticos {
+public class AritimeticosERelacionais {
     //Operadores 
     public static void main(String[] args) {
         int number1 = 10;
@@ -22,5 +22,20 @@ public class Aritimeticos {
 
         double sum2 = number3 + number4;
         System.out.println("Soma2: " + sum2);
+
+        //Relacionais 
+        boolean isGreater = number2 > number1; //maior
+        boolean isLess = number2 < number1; //menor
+        boolean isEqual = number2 == number1; //igual
+        boolean isNotEqual = number2 != number1; //diferente
+        boolean isGreaterOrEqual = number2 >= number1; //maior ou igual
+        boolean isLessOrEqual = number2 <= number1; //menor ou igual
+
+        System.out.println("É Maior: " + isGreater);
+        System.out.println("É Menor: " + isLess);
+        System.out.println("É Igual: " + isEqual);
+        System.out.println("Não é Igual: " + isNotEqual);
+        System.out.println("É maior ou igual: " + isGreaterOrEqual);
+        System.out.println("É menor ou igual a: " + isLessOrEqual);
     }       
 }
