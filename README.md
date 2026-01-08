@@ -35,7 +35,7 @@ Ao longo deste projeto, são explorados os seguintes temas:
 
 ## 🛠 Tecnologias e Linguagens Utilizadas
 
-- **Java 17+**
+- **Java 8, 17 e 25**
 - **Spring Boot**
 - **Spring Web (APIs REST)**
 - **Spring Data JPA**
