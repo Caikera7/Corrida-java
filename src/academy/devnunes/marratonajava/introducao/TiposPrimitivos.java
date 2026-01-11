@@ -29,19 +29,20 @@ public class TiposPrimitivos {
         System.out.println("É menor de idade? " + isMinor);
         boolean canVote = isAdult || age == 16;
         System.out.println("Pode votar? " + canVote);
-        boolean canNotVote != canVote;
+        boolean canNotVote = !canVote;
         System.out.println("Não pode votar? " + canNotVote);
 
 
         //Logicos 
-        int age = 30;
+        int agePlayer = 30;
         float salary = 3500F;
-        boolean isWithinTheLawToBeOverThirty = age > 30 && salary >= 4612;
+        boolean isWithinTheLawToBeOverThirty = agePlayer > 30 && salary >= 4612;
+
         System.out.println("Is within the law to be over thirty? " + isWithinTheLawToBeOverThirty);
         boolean isWithinTheLawToBeUnderThirty = age < 30 && salary >= 3381;
-        System.out.println("Is within the law to be under thirty? " + isWithinThe   LawToBeUnderThirty);
+        System.out.println("Is within the law to be under thirty? " + isWithinTheLawToBeUnderThirty);
 
-        double currentAccount = 300;0;
+        double currentAccount = 300.0;
         double savingsAccount = 10000;
         float valuePlayStation = 5000F;
 

@@ -25,10 +25,10 @@ public class EstruturaCondicionais {
             taxSalary = salary * 0.20F;
         }
         System.out.println("O imposto de renda é de: R$ " + taxSalary);
-    }
-    
+
     //Exercício de estrutura condicional (else if)
-    int ageOfSoccerPlayer = 15;
+    int ageOfSoccerPlayer = 15; 
+
     if(ageOfSoccerPlayer >= 10 && ageOfSoccerPlayer < 16){
         System.out.println("Categoria Infantil");
     } else if(ageOfSoccerPlayer >= 16 && ageOfSoccerPlayer < 18){
@@ -42,5 +42,7 @@ public class EstruturaCondicionais {
     } else {
         System.out.println("Idade inválida!");
     }
+    }
 }
+
 
