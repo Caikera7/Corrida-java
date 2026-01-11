@@ -1,0 +1,18 @@
+# Arquivos compilados Java
+*.class
+
+# Diretórios de build
+bin/
+out/
+target/
+
+# Logs 
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
