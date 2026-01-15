@@ -39,5 +39,36 @@ public class ExerciciosGerais {
                 break;     
         }
 
+        //Exercício de laços de repetição para somar números pares de 0 a 100
+        int sum = 0;
+        for (int i = 0; i <= 100; i++){
+            if (i % 2 == 0){
+                sum += i;
+            }
+        }
+        System.out.println("A soma dos números pares de 0 a 100 é: " + sum);
+
+
+        //Exercício lidando com BREAK em laços de repetição
+        double totalValue = 30000;
+        for( int installment = 1; installment <= totalValue; installment++){
+            double valuePerInstallment = totalValue / installment;
+            if(valuePerInstallment < 1000){
+                break;
+            }
+            System.out.println("Número de parcelas: " + installment + " - Valor de cada parcela: R$ " + valuePerInstallment);
+        }
+
+        //Exercício lidando com CONTINUE em laços de repetição
+        double valorTotal = 5000;
+        for(int parcela = (int) valorTotal; parcela >= 1; parcela--){
+            double valorPorParcela = valorTotal / parcela;
+            if(valorPorParcela < 1000){
+                continue;
+            }
+            System.out.println("Número de parcelas: " + parcela + " - Valor de cada parcela: R$ " + valorPorParcela);
+        }
+        
+        
   }
 }
