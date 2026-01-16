@@ -15,7 +15,7 @@ public class TiposPrimitivos {
 
         // Strings classe
         String name = " Cayque";
-        var name2 = "Nunes ";
+        //var name2 = "Nunes ";
         System.out.println(age);
         System.out.println(correct);
         System.out.println(incorrect);
