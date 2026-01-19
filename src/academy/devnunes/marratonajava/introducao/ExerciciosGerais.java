@@ -68,7 +68,15 @@ public class ExerciciosGerais {
             }
             System.out.println("Número de parcelas: " + parcela + " - Valor de cada parcela: R$ " + valorPorParcela);
         }
-        
-        
+
+        //Pequeno Exercício para aprendizado de Inicialização e manipulção de Array Multidimencionais (Exercício mostrando data e hora)
+        int[][] dateAndHours = {{18,01,2026},{20,50}};
+
+        for(int i = 0; i < dateAndHours.length;i++){
+            System.err.println("--------------");
+            for (int j = 0; j < dateAndHours[i].length; j++) {
+                System.out.println(dateAndHours[i][j]);
+            }
+        }
   }
 }
