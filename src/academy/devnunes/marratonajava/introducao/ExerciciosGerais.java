@@ -78,5 +78,31 @@ public class ExerciciosGerais {
                 System.out.println(dateAndHours[i][j]);
             }
         }
+
+        System.err.println("++++++++++++++++++++++++++++++");
+
+        int somador = 0;
+        int estoque[] = {30, 40, 23, 89};
+
+        for(int i = 0; i< estoque.length; i++){
+            somador += estoque[i];
+        }
+        System.err.println("O valor total das pratileiras e de " + somador);
+        System.err.println("----------------");
+
+        String[] mensagens = {"cayque", "gosta", "de", "codar"};
+        for(int msg = 0; msg < mensagens.length; msg++){
+            String mensagemAtual = mensagens[msg];
+
+            if (mensagemAtual.length() > 5) {
+                System.out.println("Mensagem muito longa!");
+            }else{
+                System.out.println(mensagemAtual);
+            }
+
+            
+        }
+
+
   }
 }
