@@ -11,4 +11,8 @@ public class AlunoExercicio {
         this.notaMatematica = notaMatematica;
         this.notaPortugues = notaPortugues;
     }
+
+    public double calcularMedia(){
+      return (notaPortugues + notaMatematica) / 2;
+    }
 }
