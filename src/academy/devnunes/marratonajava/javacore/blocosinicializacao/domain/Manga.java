@@ -15,5 +15,23 @@ public class Manga {
     public Manga(String name){
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int[] getEpisodios() {
+        return episodios;
+    }
+
+    public void setEpisodios(int[] episodios) {
+        this.episodios = episodios;
+    }
+
+    
   
 }
