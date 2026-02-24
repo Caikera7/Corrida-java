@@ -1,4 +1,4 @@
-package academy.devnunes.marratonajava.javacore.Associacao.domain;
+package academy.devnunes.marratonajava.javacore.associacao.domain;
 
 public class Escola {
     private String name;

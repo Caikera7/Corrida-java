@@ -1,9 +1,8 @@
-package academy.devnunes.marratonajava.javacore.Associacao.domain;
+package academy.devnunes.marratonajava.javacore.associacao.domain;
 
 public class Professor {
     private String name;
 
-    
 
     public Professor(String name) {
         this.name = name;

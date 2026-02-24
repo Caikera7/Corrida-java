@@ -1,7 +1,7 @@
-package academy.devnunes.marratonajava.javacore.Associacao.Test;
+package academy.devnunes.marratonajava.javacore.associacao.Test;
 
-import academy.devnunes.marratonajava.javacore.Associacao.domain.Escola;
-import academy.devnunes.marratonajava.javacore.Associacao.domain.Professor;
+import academy.devnunes.marratonajava.javacore.associacao.domain.Escola;
+import academy.devnunes.marratonajava.javacore.associacao.domain.Professor;
 
 public class EscolaTest {
     public static void main(String[] args) {
