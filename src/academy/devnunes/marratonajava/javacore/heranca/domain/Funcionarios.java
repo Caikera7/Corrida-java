@@ -4,10 +4,18 @@ public class Funcionarios extends Pessoa {
 
     private double salario;
 
+    static {
+        System.out.println("bloco static class super funcionario");
+    }
+
+    {
+        System.out.println("bloco não static super class funcionario ");
+    }
     
 
     public Funcionarios(String name) {
         super(name);
+        System.out.println("dentro do constructor funcionario");
     }
 
     public void imprime(){
