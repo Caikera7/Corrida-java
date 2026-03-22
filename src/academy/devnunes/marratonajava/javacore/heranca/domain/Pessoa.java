@@ -2,8 +2,18 @@ package academy.devnunes.marratonajava.javacore.heranca.domain;
 
 public class Pessoa {
     protected String name;
-    protected int cpf;
+    protected String cpf;
     protected Endereco endereco;
+    
+    
+            public Pessoa(String name, String cpf) {
+                this(name);
+                this.cpf = cpf;
+            }
+        
+        public Pessoa(String name){
+            this.name = name;
+        }
 
 
     public void imprime(){
@@ -18,10 +28,10 @@ public class Pessoa {
     public void setName(String name) {
         this.name = name;
     }
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
     public Endereco getEndereco() {
