@@ -11,7 +11,7 @@ public class Jogador {
 
     public String getName() {
         return name;
-    }
+    }  
 
     public void imprime(){
         System.out.println(this.name);
